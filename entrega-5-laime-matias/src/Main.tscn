@@ -1417,6 +1417,7 @@ tile_data = PoolIntArray( 1048611, 0, 0, 1048612, 0, 0, 1048613, 0, 0, 1048614, 
 
 [node name="Turret" parent="Environment/Entities/Enemies" instance=ExtResource( 9 )]
 position = Vector2( 1836, 213 )
+collision_mask = 1
 pathfinding_path = NodePath("../AstarTilemap")
 
 [node name="TurretsSpawner" type="Position2D" parent="Environment/Entities/Enemies"]
